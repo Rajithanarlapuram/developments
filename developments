@@ -1,0 +1,11 @@
+def convert()[Ds):
+q=list()[Ds)
+ret = []
+for x in q:
+if x.islower() and q.cont(x)>1:
+ret.append(")")
+elif x.isupper():
+ret.append(")")
+else:
+ret.append("(")
+print("" .join(ret))
